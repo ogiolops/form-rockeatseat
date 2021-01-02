@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background: black;
+}
+
+.form{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    max-width: 300px;
+    color: white;
+    padding: 10px;
+}
+
+fieldset label{
+    display: block;
+}
+
+.inputs label{
+    margin-top: 5px;
+}
+
+.inputs input, .inputs textarea{
+    width: 100%;
+    margin-top: 5px;
+}
+
+button{
+    margin: 5px 0 ;
+}
